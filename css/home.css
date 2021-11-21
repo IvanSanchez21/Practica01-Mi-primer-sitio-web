@@ -51,14 +51,6 @@ nav{
 
 }
 
-.nav .logo{
-    height: 80px;/* para que la imagen tenga la misma altura que el nav pricipal.*/
-}
-
-.nav .logo img{
-    height: 100%;  /* se adapte la img al tamaño del "nav"*/     
-}
-
 /* utilizamos flexbox para alinear el menú en el header y este se puede adaptar a varios tamaños de pantalla */
 .nav{
     display: flex; /* ayuda a colocar las cajas  como si fueran celdads en tablas*/
