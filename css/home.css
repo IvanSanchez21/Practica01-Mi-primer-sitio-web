@@ -93,6 +93,7 @@ nav{
     line-height: 80px;
 }
 
+/* ----------- Primera Sección ----------*/
 /* Aplicando css al segundo contenedor*/
 .contenido-header{
     width: 100%;
@@ -121,16 +122,42 @@ nav{
 .contenido-header a {
     margin: 28px 0 0 0;
     width: 130px;
-    background: #1fde82;
-    display: block;
+    display: inline-block;
+    background: #1FDE82;
     text-align: center;
-    color: white;
+    color: #fff;
     padding: 12px 0;
-    text-decoration: 400;
+    text-decoration: none;
+    font-weight: 400;
     text-transform: uppercase;
     font-size: 14px;
     border-radius: 5px;
-    box-shadow: 0 8px 32px rgba(31, 222, 130, 46); /* darle ese estilo de fondo verde*/
+    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
 }
 
+/* -------- Segunda sección ------------*/
+/* titulo de la sección 2 de Nosotros */
+.titulo {
+    font-size: 50px;
+}
+
+.nosotros {
+    background: #f2f2f2;
+}
+
+.contenedor-articulo { 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.articulo {
+    width: 29%;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px;
+    transition: 0.5s;
+}
 
