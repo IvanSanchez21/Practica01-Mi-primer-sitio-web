@@ -48,6 +48,10 @@ footer {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
+video {
+    width: 50%;
+}
+
 
 /*------------------- BASE ---------------------------------*/
 html {
