@@ -1,35 +1,75 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+nav{
+    /* width: 100%; */
+    padding: 1%;
 }
-
-body {
-    font-family: 'Roboto', sans-serif; 
-}
-
-nav {
-    width: 100%; /* para que el nav tome todo el ancho de la página*/
-    background: #fff; /* para que no se me vizulice el contenido de la página al momento de hacer un scrool o bajar*/
-    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2); /* para darle ese estilo con un marco al menú*/
-    position: fixed;/* posició fija del menú.*/
-}
-
 ul{
-    list-style: none; /* quitar los estilos, en este caso quitar los puntos qeu tienen como una lista*/  
+    list-style: none; /* quitar los estilos, en este caso quitar los puntos qeu tienen como una lista*/
+    background-color: red;
 }
 
 li{
     float:left; /* ordenar de manera horizontal*/
+    align-items: center;
+    /* background-color:rosybrown; */
+    padding: 1% 8% 0 0;
 }
 
 li a{
-    display: block;/*se despliegan como elemntos en bloque */
-    padding: 30px; /* para que que queden centrados los enlaces
     text-decoration: none;/* quital la decoracion de link */
 }
 
-.seccion1{
-    padding: 100px;
+header{
+    text-align: center;
+}
+
+
+section{
+    width: 96%;
+	/* clear: left; */
+	/* text-align: right; */
+	font-size: 0.45em;
+	margin-top: 30px;
+	border-top: 1px solid rgba(128,98,26,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    /* padding: 10% 0 0% 0%; */
+}
+
+img{
+	max-width: 30%;
+}
+
+footer {
+	width: 96%;
+	clear: left;
+	text-align: center;
+	font-size: 0.45em;
+	margin-top: 30px;
+	border-top: 2px solid rgba(128,98,26,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+/*------------------- BASE ---------------------------------*/
+html {
+	background-color: white;
+	
+}
+body {
+	border: 1px solid black ;
+    width: 80%;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	background-color: white;
+}
+footer {
+	font-size: 1.2em;
+}
+
+section{
+    font-size: 1.2em;
 }
 
