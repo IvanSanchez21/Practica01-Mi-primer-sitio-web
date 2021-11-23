@@ -18,8 +18,13 @@ li a{
     text-decoration: none;/* quital la decoracion de link */
 }
 
-header{
-    text-align: center;
+header h1{
+    text-align: left;
+    display: inline;
+}
+header img {
+    width: 8%;
+    padding: 5% 0 0 4%;
 }
 
 
