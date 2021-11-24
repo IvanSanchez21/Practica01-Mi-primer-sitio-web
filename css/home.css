@@ -46,10 +46,9 @@ aside{
     width: 25%;
 }
 
-footer {
+footer{
 	width: 96%;
-	clear: left;
-	text-align: center;
+    text-align: center;
 	font-size: 0.45em;
 	margin-top: 30px;
 	border-top: 2px solid rgba(128,98,26,1.00);
@@ -72,7 +71,7 @@ video {
 
 
 /*------------------- BASE ---------------------------------*/
-    html {
+html {
         background-color:seashell;
         
     }
