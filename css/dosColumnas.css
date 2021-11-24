@@ -1,0 +1,19 @@
+
+.seccionhtml article{
+    width: 74%;
+    float: right;
+}
+
+.seccionhtml nav{
+    padding: 0 3% 5% 3%;
+    margin-top: 2%;
+    float: left;
+    text-align: justify;
+    width: 20%;
+}
+
+footer{
+    clear: both;
+    margin-left: 8%;
+    width: 70%;
+}
