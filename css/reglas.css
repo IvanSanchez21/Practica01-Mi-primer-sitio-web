@@ -7,3 +7,33 @@ h1{
     font-size: 40px;
     text-align: center;
 }
+
+
+table{
+    width: 100%;
+    align-content: center;
+}
+
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse; /* este border colpasado es lo mas común*/
+    padding: 5px;
+    
+}
+caption{
+    color: #e63946;
+    font-family: fantasy;
+    font-size: 45px;
+    line-height: 70px;
+}
+th{
+    color: #f1faee;
+    background: #1d3557;
+}
+tr:nth-child(even ){
+    background-color: #f1faee ;
+}
+
+tr:nth-child(odd ){
+    background-color: #a8dadc ;
+}

@@ -2,19 +2,19 @@ nav{
     /* width: 100%; */
     padding: 1%;
 }
-ul{
+.ul{
     list-style: none; /* quitar los estilos, en este caso quitar los puntos qeu tienen como una lista*/
     background-color: red;
 }
 
-li{
+.ul li{
     float:left; /* ordenar de manera horizontal*/
     align-items: center;
     /* background-color:rosybrown; */
     padding: 1% 8% 0 0;
 }
 
-li a{
+.ul li a{
     text-decoration: none;/* quital la decoracion de link */
 }
 
@@ -61,12 +61,20 @@ video {
 }
 
 
-.seccionfinal img{
+.seccion4 img{
     margin-top: 2%;
     float: right;
     text-align: justify;
     width: 100%;
     padding: 20% 0 0 0;
+}
+
+.seccion5 aside{
+    margin-top: 2%;
+    float: right ;
+    text-align: justify;
+    width: 45%;
+    padding: 0% 0 0 0;
 }
 
 
