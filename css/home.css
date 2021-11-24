@@ -27,7 +27,6 @@ p{
     text-align: justify;
 }
 
-
 section{
     width: 100%;
 	/* clear: left; */
@@ -47,10 +46,6 @@ aside{
     width: 25%;
 }
 
-img{
-	max-width: 30%;
-}
-
 footer {
 	width: 96%;
 	clear: left;
@@ -64,6 +59,15 @@ footer {
 video {
     width: 70%;
     padding: 8% 0 0 0;
+}
+
+
+.seccionfinal img{
+    margin-top: 2%;
+    float: right;
+    text-align: justify;
+    width: 100%;
+    padding: 20% 0 0 0;
 }
 
 
